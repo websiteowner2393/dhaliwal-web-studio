@@ -1,0 +1,40 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Desktop screen background glow -->
+  <rect x="2" y="4" width="26" height="19" rx="2" fill="url(#resp_grad_soft)" opacity="0.15"/>
+  <!-- Desktop monitor frame -->
+  <path d="M4 2.5H26C27.3807 2.5 28.5 3.61929 28.5 5V21.5C28.5 22.8807 27.3807 24 26 24H4C2.61929 24 1.5 22.8807 1.5 21.5V5C1.5 3.61929 2.61929 2.5 4 2.5Z" stroke="url(#resp_grad)" stroke-width="1.6"/>
+  <!-- Desktop monitor stand -->
+  <path d="M12 24.5V29M18 24.5V29M9 29.5H21" stroke="url(#resp_grad)" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Desktop wireframe lines -->
+  <line x1="5.5" y1="7.5" x2="24.5" y2="7.5" stroke="url(#resp_grad)" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+  <rect x="5.5" y="10.5" width="7" height="9" rx="1" fill="url(#resp_grad)" opacity="0.35"/>
+  <line x1="15" y1="11.5" x2="23.5" y2="11.5" stroke="url(#resp_grad)" stroke-width="1.2" stroke-linecap="round" opacity="0.65"/>
+  <line x1="15" y1="14.5" x2="21.5" y2="14.5" stroke="url(#resp_grad)" stroke-width="1.2" stroke-linecap="round" opacity="0.65"/>
+  <line x1="15" y1="17.5" x2="19.5" y2="17.5" stroke="url(#resp_grad)" stroke-width="1.2" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Mobile phone cutout backdrop -->
+  <rect x="23" y="12" width="15" height="25" rx="3" fill="#1e1815"/>
+  <!-- Mobile phone background glow -->
+  <rect x="24" y="13" width="13" height="23" rx="2" fill="url(#resp_grad_soft)" opacity="0.15"/>
+  <!-- Mobile phone frame -->
+  <rect x="23.5" y="12.5" width="14" height="24" rx="2.5" stroke="url(#resp_grad)" stroke-width="1.6"/>
+  <!-- Phone speaker notch -->
+  <line x1="28.5" y1="15" x2="32.5" y2="15" stroke="url(#resp_grad)" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Phone wireframe lines -->
+  <line x1="26" y1="18.5" x2="35" y2="18.5" stroke="url(#resp_grad)" stroke-width="1" stroke-linecap="round" opacity="0.75"/>
+  <rect x="26" y="21" width="9" height="7" rx="0.8" fill="url(#resp_grad)" opacity="0.35"/>
+  <line x1="26" y1="31" x2="33" y2="31" stroke="url(#resp_grad)" stroke-width="1" stroke-linecap="round" opacity="0.65"/>
+  <!-- Phone home bar -->
+  <line x1="28.5" y1="34" x2="32.5" y2="34" stroke="url(#resp_grad)" stroke-width="1.2" stroke-linecap="round"/>
+
+  <defs>
+    <linearGradient id="resp_grad" x1="2" y1="2" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="resp_grad_soft" x1="0" y1="0" x2="35" y2="35" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>

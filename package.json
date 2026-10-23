@@ -1,0 +1,19 @@
+{
+  "name": "vcard-personal-portfolio",
+  "version": "1.0.0",
+  "description": "vCard - Fully responsive personal portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "start": "bun run server.js",
+    "dev": "bun --watch server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "vcard",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "codewithsadee",
+  "license": "MIT"
+}
